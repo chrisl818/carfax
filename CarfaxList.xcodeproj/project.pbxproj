@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15DAD00659325EC06D94DD05 /* Pods_CarfaxList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A1B54CD65E4253D38A9207 /* Pods_CarfaxList.framework */; };
 		C5AF54892332638F00F946B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF54882332638F00F946B3 /* AppDelegate.swift */; };
 		C5AF548B2332638F00F946B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF548A2332638F00F946B3 /* ViewController.swift */; };
 		C5AF548E2332638F00F946B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AF548C2332638F00F946B3 /* Main.storyboard */; };
 		C5AF54902332639000F946B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AF548F2332639000F946B3 /* Assets.xcassets */; };
 		C5AF54932332639000F946B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AF54912332639000F946B3 /* LaunchScreen.storyboard */; };
+		C5AF549B23327C0F00F946B3 /* CarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF549A23327C0F00F946B3 /* CarInfo.swift */; };
+		C5AF549D2332927700F946B3 /* CodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF549C2332927700F946B3 /* CodeError.swift */; };
+		C5AF549F2333D40100F946B3 /* CarInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF549E2333D40100F946B3 /* CarInfoTableViewCell.swift */; };
+		C5AF54A12334EF5B00F946B3 /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF54A02334EF5B00F946B3 /* UIImageView+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FF2C1BEE1D29DC3CD890C83 /* Pods-CarfaxList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarfaxList.debug.xcconfig"; path = "Target Support Files/Pods-CarfaxList/Pods-CarfaxList.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF595D214B72254F0B96A9E /* Pods-CarfaxList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarfaxList.release.xcconfig"; path = "Target Support Files/Pods-CarfaxList/Pods-CarfaxList.release.xcconfig"; sourceTree = "<group>"; };
+		74A1B54CD65E4253D38A9207 /* Pods_CarfaxList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarfaxList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AF54852332638F00F946B3 /* CarfaxList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarfaxList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AF54882332638F00F946B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5AF548A2332638F00F946B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		C5AF548F2332639000F946B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5AF54922332639000F946B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5AF54942332639000F946B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AF549A23327C0F00F946B3 /* CarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfo.swift; sourceTree = "<group>"; };
+		C5AF549C2332927700F946B3 /* CodeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeError.swift; sourceTree = "<group>"; };
+		C5AF549E2333D40100F946B3 /* CarInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCell.swift; sourceTree = "<group>"; };
+		C5AF54A02334EF5B00F946B3 /* UIImageView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DAD00659325EC06D94DD05 /* Pods_CarfaxList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A446760292030B8A4FFCC1AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2C1BEE1D29DC3CD890C83 /* Pods-CarfaxList.debug.xcconfig */,
+				6CF595D214B72254F0B96A9E /* Pods-CarfaxList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD34639620AF761955576112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74A1B54CD65E4253D38A9207 /* Pods_CarfaxList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5AF547C2332638F00F946B3 = {
 			isa = PBXGroup;
 			children = (
 				C5AF54872332638F00F946B3 /* CarfaxList */,
 				C5AF54862332638F00F946B3 /* Products */,
+				A446760292030B8A4FFCC1AE /* Pods */,
+				BD34639620AF761955576112 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,10 @@
 				C5AF548F2332639000F946B3 /* Assets.xcassets */,
 				C5AF54912332639000F946B3 /* LaunchScreen.storyboard */,
 				C5AF54942332639000F946B3 /* Info.plist */,
+				C5AF549A23327C0F00F946B3 /* CarInfo.swift */,
+				C5AF549C2332927700F946B3 /* CodeError.swift */,
+				C5AF549E2333D40100F946B3 /* CarInfoTableViewCell.swift */,
+				C5AF54A02334EF5B00F946B3 /* UIImageView+Additions.swift */,
 			);
 			path = CarfaxList;
 			sourceTree = "<group>";
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5AF54972332639000F946B3 /* Build configuration list for PBXNativeTarget "CarfaxList" */;
 			buildPhases = (
+				D9FD1F744E5C96DDBEF22E2A /* [CP] Check Pods Manifest.lock */,
 				C5AF54812332638F00F946B3 /* Sources */,
 				C5AF54822332638F00F946B3 /* Frameworks */,
 				C5AF54832332638F00F946B3 /* Resources */,
+				3E85AFAED9402D86B1CAA987 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E85AFAED9402D86B1CAA987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarfaxList/Pods-CarfaxList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarfaxList/Pods-CarfaxList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9FD1F744E5C96DDBEF22E2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarfaxList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5AF54812332638F00F946B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AF549F2333D40100F946B3 /* CarInfoTableViewCell.swift in Sources */,
 				C5AF548B2332638F00F946B3 /* ViewController.swift in Sources */,
+				C5AF549B23327C0F00F946B3 /* CarInfo.swift in Sources */,
 				C5AF54892332638F00F946B3 /* AppDelegate.swift in Sources */,
+				C5AF54A12334EF5B00F946B3 /* UIImageView+Additions.swift in Sources */,
+				C5AF549D2332927700F946B3 /* CodeError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +373,7 @@
 		};
 		C5AF54982332639000F946B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF2C1BEE1D29DC3CD890C83 /* Pods-CarfaxList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +392,7 @@
 		};
 		C5AF54992332639000F946B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF595D214B72254F0B96A9E /* Pods-CarfaxList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
